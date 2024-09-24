@@ -65,6 +65,7 @@ async Task Main()
         {
             await Time.Delay(1);
 
+            // Positions the motor called "motor" at an angle of 80°
             write("motor", force, mult, 80);
         }
     }
