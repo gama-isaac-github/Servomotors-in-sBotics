@@ -3,13 +3,13 @@ A function written in C# to use the sBotics platform servomotors in a similar wa
 # How to use
 ```write("motor", force, mult, ang);```
 <br/>
-motor ->  name of the motor component used;
+motor ->  name of the motor component used (string);
 <br/>
-force ->  engine strength;
+force ->  engine strength (int);
 <br/>
-mult  ->  speed multiplier, used to make the motor faster, but very high values ​​can cause problems with PID control;
+mult  ->  speed multiplier, used to make the motor faster, but very high values ​​can cause problems with PID control (int);
 <br/>
-ang   ->  angle you want the motor to position itself at.
+ang   ->  angle you want the motor to position itself at (double).
 <br/>
 # Possible problems and how to solve them
 1. "the engine keeps spinning instead of stopping in the desired position" -> try to reduce the value of the multiplier entered as a function parameter;
