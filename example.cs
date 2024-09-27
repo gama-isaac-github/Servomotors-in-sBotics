@@ -1,3 +1,9 @@
+/*
+Escrito por: Isaac L. Ribeiro Gama.
+Objetivo: criar uma função no sBotics que permita usar os servomotores da plataforma de forma semelhante
+a um servomotor do arduino.
+*/
+
 void write(string motorName, int force, int mult, double anguloAlvo)
 {
     // Cria o objeto do motor:
